@@ -2,12 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import WeatherLocation from './WeatherLocation';
 
-
 const LocationList = ({ cities, onSelectedLocation }) => {
     const handleWeatherLocationClick = city => {
         console.log('handleWeatherLocationClick: ',city);
         onSelectedLocation(city);
-
     };
     const strToComponent = cities => (
         cities.map( city => (
