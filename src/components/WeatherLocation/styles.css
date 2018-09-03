@@ -1,8 +1,7 @@
 .weatherLocationCont {
     margin-left: 10px;
     margin-right: 10px;
-    /*width: calc(100% - 20px);*/
-    width: 400px;
+    width: calc(100% - 20px);
     min-width: 430px;
     padding: 25px;
     box-sizing: border-box;
